@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    /* 全体の背景色を薄いグレーに */
+}
+
+.location {
+    text-align: center;
+    color: rgb(0, 81, 255);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sapporo-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    display: block;
+
+    /* 影を濃く */
+}
+
+.kaisen-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    display: block;
+
+    /* 影を濃く */
+}
+
+.winter-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    display: block;
+
+    /* 影を濃く */
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.recommendation-item {
+    background-color: #ffffff;
+    /* 各セクションの背景色を白に */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-item h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #007bff;
+    /* タイトルの色をブルーに */
+}
+
+.recommendation-item p {
+    font-size: 16px;
+    color: #343a40;
+    /* テキストの色をダークグレーに */
+}
+
+.recommendation-item:nth-child(1) {
+    background-color: #ffefef;
+    /* おすすめの料理セクションを薄い赤に */
+}
+
+.recommendation-item:nth-child(2) {
+    background-color: #e7f7ff;
+    /* おすすめの観光先セクションを薄い青に */
+}
+
+.recommendation-item:nth-child(3) {
+    background-color: #e6ffe6;
+    /* おすすめの季節セクションを薄い緑に */
+}
