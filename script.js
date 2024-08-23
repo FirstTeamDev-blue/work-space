@@ -1,6 +1,6 @@
 document.getElementById('randomButton').addEventListener('click', function() {
     // ランダムで飛ばしたいページのURLリスト
-    var pages = [
+    let pages = [
         './Fukuoka.html',
         './Osaka.html',
         './Nagoya.html',
@@ -9,7 +9,7 @@ document.getElementById('randomButton').addEventListener('click', function() {
         ];
 
     // ランダムなインデックスを生成
-    var randomIndex = Math.floor(Math.random() * pages.length);
+    let randomIndex = Math.floor(Math.random() * pages.length);
 
     // ランダムに選ばれたページに移動
     window.location.href = pages[randomIndex];
